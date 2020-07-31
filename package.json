@@ -1,0 +1,19 @@
+{
+  "name": "laisse_porter_reservations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "es-dev-server --app-index index.html --node-resolve --watch --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.57.1"
+  }
+}

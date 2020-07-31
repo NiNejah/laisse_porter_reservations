@@ -1,0 +1,48 @@
+.bg-primary {
+    background-color: #E91E63;
+}
+
+.text-primary {
+    color: #E91E63
+}
+
+.bg-secondary {
+    background-color: #5d9fb0;
+}
+
+.text-secondary {
+    color: #5d9fb0
+}
+
+:root {
+    --primary: #E91E63;
+    --secondary: #5d9fb0;
+}
+
+/* -------------------- */
+
+@font-face {
+    font-family: 'Nobility';
+    src: url("../fonts/nobilty.eot?") format("eot"), url("../fonts/nobilty.woff") format("woff"), url("../fonts/nobilty.ttf") format("truetype"), url("../fonts/nobilty.svg#NobilityCasual") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+/* -------------------- */
+
+body {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Nobility', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
